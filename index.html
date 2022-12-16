@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/img/favicon.ico">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -17,9 +18,10 @@
         <nav>
             <ul class="nav-list">
                 <li><a class="nav-link" href="#contacts">Contacts</a></li>
-                <li><a class="nav-link" href="#summary">Summary</a></li>
+                <li><a class="nav-link" href="#summary">About me</a></li>
                 <li><a class="nav-link" href="#skills">Skills</a></li>
                 <li><a class="nav-link" href="#courses">Courses</a></li>
+                <li><a class="nav-link" href="#code-example">Code example</a></li>
                 <li><a class="nav-link" href="#projects">Projects</a></li>
                 <li><a class="nav-link" href="#education">Education</a></li>
                 <li><a class="nav-link" href="#language-skills">Language skills</a></li>
@@ -33,45 +35,126 @@
         </div>
 
         <section class="section">
+            <img src="assets/img/photo.jpg" alt="Leanid's photo">
             <h1>Leanid Rymkevich</h1>
+            <h2>Junior Developer</h2>
         </section>        
 
         <section class="section" id="contacts">
             <h2>Contacts</h2>
+            <ul>
+                <li>Location: Minsk, Belarus</li>
+                <li>Phone: +375298943209</li>
+                <li>Email: <a href="mailto:leanidrymkevich@gmail.com">leanidrymkevich@gmail.com</a></li>
+            </ul>
         </section>
 
-        <section class="section" id="contacts">
-            <h2>Contacts</h2>
+        <section class="section" id="summary">
+            <h2>About me</h2>
+            <p>
+               At the moment I work as a shift supervisor of the electrical shop at a power plant.
+               In my free time I go in for sports, study programming, in particular, languages such
+               as Javascript, Java, which I want to develop further.
+            </p>
         </section>
 
         
         <section class="section" id="skills">
             <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript Basics</li>
+                <li>Java Basics</li>
+                <li>Git, GitHub</li>
+            </ul>
         </section>
 
         
         <section class="section" id="courses">
             <h2>Courses</h2>
+            <ul>
+                <li>EPAM: Introduction to Java</li>
+                <li>IT-Academy: Regular expression basics</li>
+                <li>IT-Academy: Fundamentals of Object-Oriented Programming</li>
+                <li>IT-Academy: Basic Java Online Course</li>
+                <li>code-basics.com: HTML layout for beginners</li>
+                <li>code-basics.com: CSS - online learning from scratch</li>
+            </ul>
         </section>
 
+        <section class="section" id="code-example">
+            <h2>Code example</h2>
+            <p>Task of checking whether a given year is leap or not (written on Java).</p>
+            <pre>
+                <code>
+                    public boolean isLeapYear(int year) {
+                        if (year % 4 == 0) {                         
+                            if(year % 100 == 0) {
+                                if (year % 400 == 0) {
+                                    return true;
+                                } else {
+                                    return false;
+                                }
+                            } else {
+                                return true;
+                            }
+                        } else {
+                            return false;
+                        }
+                    }
+                
+            </code>
+            </pre>
+        </section>
         
         <section class="section" id="projects">
             <h2>Projects</h2>
+            <div>
+                <p>
+                    Dragon and his treasures. A program that allows you to process information about 100 treasures
+                    in the dragon's cave. The ability to view treasures, select the most expensive treasure and select
+                    treasures for a given amount has been implemented.
+                </p>
+                <a href="https://github.com/LeanidRymkevich/EPAM-Introduction-to-Java-Online/tree/main/5_Basics_of_OOP/Task_5">
+                    To see this program's code click here
+                </a>
+            </div>
+            <div>
+                <p>
+                    Present. An application has been implemented that allows you to create gifts (an object that represents a gift).
+                    The components of the whole gift are sweets and packaging.
+                </p>
+                <a href="https://github.com/LeanidRymkevich/EPAM-Introduction-to-Java-Online/tree/main/5_Basics_of_OOP/Task_5">
+                    To see this program's code click here
+                </a>
+            </div>
         </section>
 
         
         <section class="section" id="education">
             <h2>Education</h2>
+            <p>University: Belarus National Technical University</p>
+            <p>Specialty: Energy power plant engineer</p>
+            <p>Graduation year: 2015</p>
         </section>
 
         <section class="section" id="language-skills">
             <h2>Language skills</h2>
+            <ul>
+                <li>English: A2+</li>
+                <li>Polish: B1</li>
+            </ul>
         </section>
     </main>
 
     <footer class="footer">
         <div class="container">
-            Footer
+            <a href="https://github.com/LeanidRymkevich">GitHub: LeanidRymkevich</a>
+            <a href="https://rs.school/js/">
+                <img class="rolling-scopes-logo" src="assets/img/rolling_scopes_logo.jpg" alt="Rolling Scopes' logo">
+            </a>
+            <p>2022</p>
         </div>
     </footer>
 </body>
