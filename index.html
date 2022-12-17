@@ -30,22 +30,29 @@
     </header>
 
     <main class="main">
-        <div class="container" >
-            
-        </div>
+        
 
-        <section class="section">
-            <img src="assets/img/photo.jpg" alt="Leanid's photo">
+        <section class="section container" >
+            <img class="photo" src="assets/img/photo.jpg" alt="Leanid's photo">
             <h1>Leanid Rymkevich</h1>
             <h2>Junior Developer</h2>
         </section>        
 
-        <section class="section" id="contacts">
+        <section class="section contacts" id="contacts">
             <h2>Contacts</h2>
-            <ul>
-                <li>Location: Minsk, Belarus</li>
-                <li>Phone: +375298943209</li>
-                <li>Email: <a href="mailto:leanidrymkevich@gmail.com">leanidrymkevich@gmail.com</a></li>
+            <ul class="ul-contacts">
+                <li>
+                    <img class="contacts-img" src="assets/img/location-icon.png" alt="location">
+                    Minsk, Belarus
+                </li>
+                <li>
+                    <img class="contacts-img" src="assets/img/phone-icon.jpg" alt="phone">
+                    +375298943209
+                </li>
+                <li>
+                    <img class="contacts-img" src="assets/img/email-icon.png" alt="email">
+                    <a href="mailto:leanidrymkevich@gmail.com">leanidrymkevich@gmail.com</a>
+                </li>
             </ul>
         </section>
 
@@ -111,20 +118,20 @@
         <section class="section" id="projects">
             <h2>Projects</h2>
             <div>
-                <p>
+                <div>
                     Dragon and his treasures. A program that allows you to process information about 100 treasures
                     in the dragon's cave. The ability to view treasures, select the most expensive treasure and select
                     treasures for a given amount has been implemented.
-                </p>
+                </div>
                 <a href="https://github.com/LeanidRymkevich/EPAM-Introduction-to-Java-Online/tree/main/5_Basics_of_OOP/Task_5">
                     To see this program's code click here
                 </a>
             </div>
             <div>
-                <p>
+                <div>
                     Present. An application has been implemented that allows you to create gifts (an object that represents a gift).
                     The components of the whole gift are sweets and packaging.
-                </p>
+                </div>
                 <a href="https://github.com/LeanidRymkevich/EPAM-Introduction-to-Java-Online/tree/main/5_Basics_of_OOP/Task_5">
                     To see this program's code click here
                 </a>
@@ -150,11 +157,20 @@
 
     <footer class="footer">
         <div class="container">
-            <a href="https://github.com/LeanidRymkevich">GitHub: LeanidRymkevich</a>
-            <a href="https://rs.school/js/">
-                <img class="rolling-scopes-logo" src="assets/img/rolling_scopes_logo.jpg" alt="Rolling Scopes' logo">
-            </a>
-            <p>2022</p>
+            <div>
+                <a href="https://github.com/LeanidRymkevich">
+                    <img class="github-icon" src="assets/img/github-icon.png" alt="GitHub's logo">
+                    LeanidRymkevich
+                </a>
+            </div>
+            
+            <div>
+                <a href="https://rs.school/js/">
+                    <img class="rolling-scopes-icon" src="assets/img/rolling_scopes_logo.jpg" alt="Rolling Scopes' logo">
+                </a>
+            </div>
+            
+            <div>2022</div>
         </div>
     </footer>
 </body>
