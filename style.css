@@ -28,6 +28,46 @@ body {
     color: #000000;
 }
 
+header {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+
+    border: 1px solid red;
+}
+
+.aside {
+    position: relative;
+    top: 10%;
+    left: 0%;
+    width: 20%;
+    height: 90%;
+
+    border: 1px solid red;
+}
+
+main {
+    position: relative;
+    top: 10%;
+    left: 20%;
+    width: 80%;
+    height: 90%;
+
+    border: 1px solid red;
+}
+
+footer {
+    position: relative;
+    top: 90%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+
+    border: 1px solid red;
+}
+
 .main-container {
     display: flex;
     flex-wrap: wrap;
@@ -37,17 +77,11 @@ body {
     width: 50%;
   }
 
-header {
-    
-}
 
-main {
-    border: 1px solid red;
-}
 
-footer {
-    border: 1px solid red;
-}
+
+
+
 
 a {
     text-decoration: none;
