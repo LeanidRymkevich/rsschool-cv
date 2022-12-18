@@ -31,42 +31,20 @@ body {
 }
 
 .global-container {
+    
+    border-radius: 30px;
     background: url('./assets/img/main-background.jpg') ;
     background-size: cover;
 }
 
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+/*_______  header _______________*/
 
 header {
-    border: 1px solid red;
+    margin: 0 10px 0 10px;
+    border-radius: 30px;
+    background: rgb(139, 137, 137, 0.3);
+    background: linear-gradient(180deg, rgb(39, 39, 40) 0%, rgb(139, 137, 137, 0.3) 30%);
 }
-
-
-.left-main {
-    width: 20%;
-    border: 1px solid red;
-}
-
-.right-main {
-    width: 80%;
-    border: 1px solid red
-}
-
-
-
-
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-a {
-    text-decoration: none;
-}
-
 
 .nav-list {
     display: flex;
@@ -79,7 +57,59 @@ a {
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
+
+    font-style: italic;
+    font-weight: 600;
 }
+
+/*_______  header end_______________*/
+
+
+.container {
+    max-width: 1440px;
+    margin: 10px;
+  }
+
+
+.left-main {
+    width: 19%;
+    border: 1px solid red;
+    border-radius: 30px;
+    
+    margin-right: 1%;
+}
+
+/*__________ right-main _______*/
+
+.right-main {
+    width: 79%;
+    border: 1px solid red;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 1%;
+
+    background-color: rgba(90, 93, 93, 0.3);
+}
+
+code {
+    font-weight: lighter;
+    line-height: 0.3;
+}
+
+/*__________ right-main end _______*/
+
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+a {
+    text-decoration: none;
+}
+
+
+
 
 .photo{
     width: 190px;
@@ -93,7 +123,6 @@ a {
 .contacts-img {
     width: 32px;
     height: 32px;
-    background-color: white;
 }
 
 .github-icon {
@@ -122,19 +151,19 @@ a {
 /*_______ footer _______________*/
 
 footer {
-    border: 1px solid red
+    border: 1px solid red;
+    border-radius: 30px;
+    background: rgb(139, 137, 137, 0.3);
+    background: linear-gradient(0deg, rgb(39, 39, 40) 0%, rgb(139, 137, 137, 0.3) 20%);
 }
 
 footer .container {
-    margin: 5px;
-
     display: flex;
     justify-items: baseline;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .personal-github {
-    margin-left: 150px;
     font-size: 24px;
     background: url('./assets/img/github-icon.png') left no-repeat;
     background-size: 32px;
@@ -143,7 +172,6 @@ footer .container {
 
 .current-year {
     display: inline-block;
-    margin: 0 0 0 40px;
     padding-top: 15px;
     font-size: 24px;
 }
@@ -155,7 +183,7 @@ footer .container {
 }
 
 
-
+/*_______end of footer _______________*/
 
 
 
