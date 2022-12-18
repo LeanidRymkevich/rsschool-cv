@@ -89,6 +89,7 @@ header {
     margin-left: 1%;
 
     background-color: rgba(90, 93, 93, 0.3);
+    box-shadow: 0 14px 28px  rgba(0, 0, 0, 0.26),  0 4px 12px  rgba(0, 0, 0, 0.31);
 }
 
 code {
@@ -114,6 +115,8 @@ a {
 .photo{
     width: 190px;
     height: 190px;
+    border-radius: 50%;
+    box-shadow: 0 14px 28px  rgba(0, 0, 0, 0.26),  0 4px 12px  rgba(0, 0, 0, 0.31);
 }
 
 .ul-contacts {
@@ -122,7 +125,13 @@ a {
 
 .contacts-img {
     width: 32px;
-    height: 32px;
+    border-radius: 50%;
+    
+    box-shadow: 0 14px 28px  rgba(0, 0, 0, 0.26),  0 4px 12px  rgba(0, 0, 0, 0.31);
+}
+
+.location-img {
+    width: 32px;
 }
 
 .github-icon {
