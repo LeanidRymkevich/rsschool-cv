@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+</head>
+
+<body>
+
+    <div class="container global-container">
+
+        <header class="header">
+            <div class="container">
+                <nav>
+                    <ul class="nav-list">
+                        <li><a class="nav-link" href="#contacts">Contacts</a></li>
+                        <li><a class="nav-link" href="#summary">About me</a></li>
+                        <li><a class="nav-link" href="#skills">Skills</a></li>
+                        <li><a class="nav-link" href="#courses">Courses</a></li>
+                        <li><a class="nav-link" href="#code-example">Code example</a></li>
+                        <li><a class="nav-link" href="#projects">Projects</a></li>
+                        <li><a class="nav-link" href="#education">Education</a></li>
+                        <li><a class="nav-link" href="#language-skills">Language skills</a></li>
+                    </ul>
+                </nav>    
+            </div>    
+        </header>
+    
+        <main class="main">
+    
+           <div class="container main-container">
+             
+            <div class="left-main">
+    
+                <div class="container photo-area">
+                    <section class="section" >
+                        <img class="photo" src="assets/img/photo.png" alt="Leanid's photo">
+                        <h1>Leanid Rymkevich</h1>
+                        <h2>Junior Developer</h2>
+                    </section>
+                </div>
+        
+                <div class="container">
+                    <section class="section" id="contacts">
+                        <h2>Contacts</h2>
+                        <ul class="ul-contacts">
+                            <li class="location">
+                                <img class="location-img " src="assets/img/loc-icon.png" alt="location">
+                                <span>Minsk, Belarus</span>
+                            </li>
+                            <li class="phone">
+                                <img class="contacts-img" src="assets/img/phone-icon.png" alt="phone">
+                                <span>+375298943209</span>
+                            </li>
+                            <li class="location">
+                                <img class="contacts-img" src="assets/img/email-icon.png" alt="email">
+                                <a href="mailto:leanidrymkevich@gmail.com">leanidrymkevich@gmail.com</a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                
+        
+            </div>
+        
+            <div class="right-main">  
+              
+                <div class="container">
+                    <section class="section" id="summary">
+                        <h2>About me</h2>
+                        <p>
+                           At the moment I work as a shift supervisor of the electrical shop at a power plant.
+                           In my free time I go in for sports, study programming, in particular, languages such
+                           as Javascript, Java, which I want to develop further.
+                        </p>
+                    </section>
+                </div>
+        
+                <div class="container">
+                    <section class="section" id="skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Javascript Basics</li>
+                            <li>Java Basics</li>
+                            <li>Git, GitHub</li>
+                        </ul>
+                    </section>
+                </div>
+        
+                <div class="container">
+                    <section class="section" id="courses">
+                        <h2>Courses</h2>
+                        <ul>
+                            <li>EPAM: Introduction to Java</li>
+                            <li>IT-Academy: Regular expression basics</li>
+                            <li>IT-Academy: Fundamentals of Object-Oriented Programming</li>
+                            <li>IT-Academy: Basic Java Online Course</li>
+                            <li>code-basics.com: HTML layout for beginners</li>
+                            <li>code-basics.com: CSS - online learning from scratch</li>
+                        </ul>
+                    </section>
+                </div>
+        
+                <div class="container">
+                    <section class="section" id="code-example">
+                        <h2>Code example</h2>
+                        <p>Task of checking whether a given year is leap or not (written on Java).</p>
+                            <code>
+                                <span>public boolean isLeapYear(int year) {</span><br>
+                                    <span> &nbsp; if (year % 4 == 0) {</span><br>                      
+                                        <span>&nbsp; &nbsp; if(year % 100 == 0) {</span><br>
+                                            <span>&nbsp; &nbsp; &nbsp; if (year % 400 == 0) {</span><br>
+                                                <span>&nbsp; &nbsp; &nbsp; &nbsp; return true;</span><br>
+                                            <span>&nbsp; &nbsp; &nbsp; } else { </span><br>    
+                                                <span>&nbsp; &nbsp; &nbsp; &nbsp; return false;</span><br>
+                                            <span>&nbsp; &nbsp; &nbsp; } else {</span><br>
+                                                <span>&nbsp; &nbsp; &nbsp; &nbsp; return true;</span><br>
+                                            <span>&nbsp; &nbsp; &nbsp; }</span><br>
+                                        <span>&nbsp; &nbsp; } else {</span><br>
+                                            <span>&nbsp; &nbsp; &nbsp; return false;</span><br>
+                                    <span>&nbsp; }</span><br>                        
+                                <span>}</span><br>
+                        </code>
+                    </section>
+                </div>
+                
+                <div class="container">
+                    <section class="section" id="projects">
+                        <h2>Projects</h2>
+                        <div>
+                            <p>
+                                Dragon and his treasures. A program that allows you to process information about 100 treasures
+                                in the dragon's cave. The ability to view treasures, select the most expensive treasure and select
+                                treasures for a given amount has been implemented.
+                            </p>
+                            <a href="https://github.com/LeanidRymkevich/EPAM-Introduction-to-Java-Online/tree/main/5_Basics_of_OOP/Task_5"
+                            target="_blank">
+                                To see this program's code click here
+                            </a>
+                        </div>
+                        <div>
+                            <p>
+                                Present. An application has been implemented that allows you to create gifts (an object that represents a gift).
+                                The components of the whole gift are sweets and packaging.
+                            </p>
+                            <a href="https://github.com/LeanidRymkevich/EPAM-Introduction-to-Java-Online/tree/main/5_Basics_of_OOP/Task_5"
+                            target="_blank">
+                                To see this program's code click here
+                            </a>
+                        </div>
+                    </section>
+                </div>
+        
+                <div class="container">
+                    <section class="section" id="education">
+                        <h2>Education</h2>
+                        <p>University: Belarus National Technical University</p>
+                        <p>Specialty: Energy power plant engineer</p>
+                        <p>Graduation year: 2015</p>
+
+                    </section>
+                </div>
+        
+                <div class="container">
+                    <section class="section" id="language-skills">
+                        <h2>Language skills</h2>
+                        <ul>
+                            <li>English: A2+</li>
+                            <li>Polish: B1</li>
+                        </ul>
+                    </section>
+                </div>
+                
+            </div>
+           </div>
+    
+        </main>
+    
+        <footer class="footer">
+    
+            <div class="container">
+    
+                <a class="personal-github" href="https://github.com/LeanidRymkevich" target="_blank">LeanidRymkevich</a>
+                <span class="current-year">2022</span>
+                <a href="https://rs.school/js/" target="_blank">
+                    <img class="rolling-scopes-icon" src="./assets/img/rolling_scopes_logo.jpg" alt="rs-school logo">
+                </a>
+
+            </div>
+    
+        </footer>
+    </div>
+
+</body>
+</html>
