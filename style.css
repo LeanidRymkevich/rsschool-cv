@@ -21,31 +21,41 @@ body {
     flex-direction: column;
     justify-content: space-between;
 
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
     color: #000000;
+
+    background-color: rgb(139, 137, 137, 0.3) ;
 }
 
+.global-container {
+    background: url('./assets/img/main-background.jpg') ;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
 header {
-    background-color: #c8d514;
+    border: 1px solid red;
 }
 
 
 .left-main {
     width: 20%;
-    background-color: #829985;
+    border: 1px solid red;
 }
 
 .right-main {
     width: 80%;
-    background-color: aquamarine;
+    border: 1px solid red
 }
 
-footer {
-    background-color: blueviolet;
-}
+
 
 
 .main-container {
@@ -69,11 +79,6 @@ a {
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
-}
-
-.rolling-scopes-icon {
-    width: 32px;
-    height: 32px;
 }
 
 .photo{
@@ -114,8 +119,40 @@ a {
     color: #829985;
 }
 
+/*_______ footer _______________*/
 
+footer {
+    border: 1px solid red
+}
 
+footer .container {
+    margin: 5px;
+
+    display: flex;
+    justify-items: baseline;
+    justify-content: space-around;
+}
+
+.personal-github {
+    margin-left: 150px;
+    font-size: 24px;
+    background: url('./assets/img/github-icon.png') left no-repeat;
+    background-size: 32px;
+    padding: 15px 0 0 40px;
+}
+
+.current-year {
+    display: inline-block;
+    margin: 0 0 0 40px;
+    padding-top: 15px;
+    font-size: 24px;
+}
+
+.rolling-scopes-icon {
+    padding-top: 4px;
+    width: 60px;
+    border-radius: 50%;
+}
 
 
 
