@@ -16,6 +16,7 @@ html {
 
 body {
     min-height: 100vh;
+    min-width: 1440px;
     margin: 0;
     padding: 0;
 
@@ -41,7 +42,7 @@ body {
 
 .main-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 a {
@@ -141,6 +142,7 @@ code {
 
     background-color: rgba(161, 151, 80, 0.3);
     box-shadow: 0 14px 28px  rgba(0, 0, 0, 0.26),  0 4px 12px  rgba(0, 0, 0, 0.31);
+
 }
 
 .left-main .container {
@@ -148,7 +150,8 @@ code {
     padding: 5px;
     border-bottom: 3px solid #5f4545;
     border-radius: 30px;
-    box-shadow: 0 14px 28px #5f4545
+    box-shadow: 0 14px 28px #5f4545;
+
 }
 
 .photo{
