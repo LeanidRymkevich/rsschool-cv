@@ -4,8 +4,6 @@
 
 ## Novice JavaScript Developer
 
----
-
 ## Contacts
 
 **Location:** _Belarus, Minsk_\
@@ -14,15 +12,11 @@
 **Discord:** _Reinevan(@LeanidRymkevich)_\
 **GitHub:** [_LeanidRymkevich_](https://github.com/LeanidRymkevich)
 
----
-
 ## About me
 
 *At the moment I work as a shift supervisor of the electrical shop at a power plant.\
 In my free time I go in for sports, study programming, in particular, languages such
 as Javascript, Java, which I want to develop further.*
-
----
 
 ## Skills
 
@@ -31,8 +25,6 @@ as Javascript, Java, which I want to develop further.*
 + _Javascript Basics_
 + _Java Basics_
 + _Git, GitHub_
-
----
 
 ## Courses
 
@@ -43,8 +35,6 @@ as Javascript, Java, which I want to develop further.*
 5. _code-basics.com: HTML layout for beginners_
 6. _code-basics.com: CSS - online learning from scratch_
 7. _RS School JavaScript FrontEnd Pre-School_
-
----
 
 ## Code example
 
@@ -66,8 +56,6 @@ function getDecimal(n){
 }
 ```
 
----
-
 ## Projects
 
 + [_Momentum_](https://github.com/LeanidRymkevich/momentum)
@@ -79,15 +67,11 @@ function getDecimal(n){
 + [_Reverse int_](https://github.com/LeanidRymkevich/reverse-int)
 + [_Human readable number_](https://github.com/LeanidRymkevich/human-readable-number)
 
----
-
 ## Education
 
 **University:** _Belarus National Technical University_\
 **Specialty:** _Energy power plant engineer_\
 **Graduation year:** _2015_
-
----
 
 ## Language skills
 
